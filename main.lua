@@ -10,8 +10,8 @@ local offsets = {
     primitive_flags = {
         anchored = 0x2,
         can_collide = 0x8,
-        can_query = 32,
-        can_touch = 16,
+        can_query = 0x20,
+        can_touch = 0x10,
     },
 }
 
